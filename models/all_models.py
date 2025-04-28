@@ -1,0 +1,1 @@
+from models.brawl_stars_model import BrawlModel
