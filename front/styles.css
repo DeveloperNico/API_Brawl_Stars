@@ -41,3 +41,44 @@ body {
         margin-top: 20px;
     }
 }
+
+.button {
+    background-color: #f5b81f;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #e8722b;
+}
+
+.buttonAdd {
+    background-color: #f5b81f;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 50px 0;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.buttonAdd:hover {
+    background-color: #e8722b;
+}
+
+.containerButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
